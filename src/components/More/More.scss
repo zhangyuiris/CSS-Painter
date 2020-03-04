@@ -1,0 +1,55 @@
+.more-wrapper {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  margin: 50px auto;
+  border: 20px #fff solid;
+  position: relative;
+  display: flex;
+}
+
+.more-load-wrapper {
+  background: #eee;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+// 第一个
+.more-bar {
+  width: 15px;
+  height: 6px;
+  border-radius: 2px;
+  background-color: #81D8D0;
+}
+.more-bar {animation: loadingBar 2s cubic-bezier(.17,.37,.43,.67) infinite;}
+@keyframes loadingBar {
+  0%,100% {
+    transform: translate(-40px,0);
+  }
+
+  50% {
+    transform: translate(40px,0);
+    background-color: #f5634a;
+    width: 25px;
+  }
+}
+
+// 第二个
+.more-load-circle1 {
+  width: 60px;
+  height: 60px;
+  border: 7px dashed #81D8D0;
+  border-radius: 50%;
+  animation: loadingCircle 2s 0.8s cubic-bezier(.17,.37,.43,.67) infinite;
+}
+
+@keyframes loadingCircle {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
