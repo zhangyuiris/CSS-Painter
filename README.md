@@ -1,3 +1,6 @@
 # CSS painter
 
-draw with CSS
+build for fun
+
+[康康](https://zhangyuiris.github.io/Finch/)
+
