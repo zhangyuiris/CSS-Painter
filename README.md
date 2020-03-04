@@ -2,5 +2,5 @@
 
 build for fun
 
-[康康](https://zhangyuiris.github.io/Finch/)
+[康康](https://zhangyuiris.github.io/CSS-Painter/)
 
